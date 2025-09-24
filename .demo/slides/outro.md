@@ -43,4 +43,6 @@ Any questions or feedback? Feel free to reach out!
 
 🔥: [maester.dev](https://maester.dev)
 
+🧑‍💻: [github/svrooij/maester-demo](https://github.com/svrooij/maester-demo)
+
 Presented with [DemoTime](https://demotime.show) 🎥

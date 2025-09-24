@@ -74,7 +74,7 @@
         "end": ""
       },
       "description": "Have you ever used Maester?",
-      "disabled": true
+      "disabled": false
     },
     {
       "id": "demo-mfl7u5hf-yo9u",
