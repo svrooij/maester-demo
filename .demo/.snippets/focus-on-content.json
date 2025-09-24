@@ -1,0 +1,25 @@
+[
+  {
+    "action": "setTheme",
+    "theme": "Default Dark Modern"
+  },
+  {
+    "action": "executeVSCodeCommand",
+    "command": "workbench.action.closePanel"
+  },
+  {
+    "action": "setSetting",
+    "setting": {
+      "key": "workbench.statusBar.visible",
+      "value": false
+    }
+  },
+
+    {
+    "action": "setSetting",
+    "setting": {
+      "key": "window.zoomLevel",
+      "value": 1.0
+    }
+  }
+]

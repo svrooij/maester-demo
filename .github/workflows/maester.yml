@@ -1,0 +1,62 @@
+name: Daily tests 🧪
+
+on:
+  push:
+    branches: ["main"]
+  # Run once a day at midnight
+  schedule:
+    - cron: "30 7 * * 1"
+  # Allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+permissions:
+      id-token: write
+      contents: read
+      checks: write
+
+jobs:
+  run-maester-tests:
+    name: Maester 🔥
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🏗️ Checkout code
+      uses: actions/checkout@v4
+    - name: 🔥Run Maester 
+      id: maester-action
+      uses: maester365/maester-action@v1.0.1
+      with:
+        client_id: ${{ secrets.AZURE_CLIENT_ID }}
+        tenant_id: ${{ secrets.AZURE_TENANT_ID }}
+        include_public_tests: true # Optional: Set to false if you are keeping to a certain version of tests or have your own tests
+        include_private_tests: false # no other tests yet
+        include_exchange: false    # Optional: Set to true if you want to include Exchange tests
+        include_teams: false # bla
+        #include_tags: Maester,Security,Entra
+        step_summary: true         # Optional: Set to false if you don't want a summary added to your GitHub Action run
+        artifact_upload: true      # Optional: Set to false if you don't want summaries uploaded to GitHub Artifacts
+        maester_version: preview  # Optional: Set to true if you want to use Measter Preview Build when running tests
+        disable_telemetry: true   # Optional: Set to true If you want telemetry information not to be logged.
+    
+    - name: 📦 Move files
+      shell: pwsh
+      run: |
+        # Create a directory dist if it doesn't exist
+        if (-not (Test-Path -Path "dist")) {
+          New-Item -ItemType Directory -Path "dist"
+        }
+        # Copy files in test-results to dist
+        Copy-Item -Path "test-results/*" -Destination "dist" -Recurse -Force
+        # Rename test-results.html to index.html
+        if (Test-Path -Path "dist/test-results.html") {
+          Rename-Item -Path "dist/test-results.html" -NewName "index.html"
+        }
+    - name: 🚀 Deploy results to SWA
+      uses: svrooij/azure-static-web-app-deploy-action@main
+      with:
+        tenant_id: ${{ secrets.AZURE_TENANT_ID }}                # Required for federated credentials
+        client_id: ${{ secrets.AZURE_CLIENT_ID }}                # Required for federated credentials
+        static_web_app_name: ${{ secrets.SWA_NAME }}             # Required for federated credentials
+        app_location: 'dist'                                     # Optional, default '.'
+        api_location: ''                                         # Optional, default 'api'
+        swa_environment: 'production'                            # Optional, default 'production'
+        swa_config_directory: 'config'

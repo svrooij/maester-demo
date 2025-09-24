@@ -1,0 +1,405 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "Diwug meetup",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "id": "demo-mfl5r5qq-86l3",
+      "title": "Introduction",
+      "steps": [
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "startEngageTimeSession",
+          "disabled": true
+        },
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/intro.md"
+        }
+      ],
+      "icons": {
+        "start": "device-desktop",
+        "end": ""
+      },
+      "description": "Introduction slides"
+    },
+    {
+      "id": "demo-mfl5wq62-bqaa",
+      "title": "Join session 🤳",
+      "steps": [
+        {
+          "action": "close"
+        },
+        {
+          "action": "showEngageTimeSession"
+        }
+      ],
+      "icons": {
+        "start": "broadcast",
+        "end": ""
+      },
+      "description": "During this sessions there will be some polls, you can ask your questions, give feedback and get access to some exclusive content.",
+      "disabled": true
+    },
+    {
+      "id": "demo-mfl60sdx-l2so",
+      "title": "Poll: Using Maester ❔",
+      "steps": [
+        {
+          "action": "startEngageTimePoll",
+          "pollId": "2483pt"
+        },
+        {
+          "action": "showEngageTimePoll",
+          "pollId": "2483pt"
+        },
+        {
+          "action": "waitForInput",
+          "message": "Close poll and continue?"
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "2483pt"
+        }
+      ],
+      "icons": {
+        "start": "question",
+        "end": ""
+      },
+      "description": "Have you ever used Maester?",
+      "disabled": true
+    },
+    {
+      "id": "demo-mfl7u5hf-yo9u",
+      "title": "Maester 🧪",
+      "steps": [
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/browser-demo.md"
+        },
+        {
+          "action": "openWebsite",
+          "openInVSCode": false,
+          "url": "https://maester-results.svrooij.io/"
+        }
+      ],
+      "icons": {
+        "start": "checklist",
+        "end": ""
+      },
+      "description": "Maester results for demo tenant, hosted on Azure Static Web Apps.\nProtected by using Static Web App Authentication.",
+      "disabled": true
+    },
+    {
+      "id": "demo-mfl8so9n-vgfc",
+      "title": "Maester 📃",
+      "steps": [
+        {
+          "action": "openWebsite",
+          "openInVSCode": true,
+          "url": "https://maester.dev"
+        },
+        {
+          "action": "waitForInput",
+          "message": "Close browser and continue?"
+        },
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "runDemoById",
+          "id": "demo-mflaeinu-guxh"
+        }
+      ],
+      "icons": {
+        "start": "globe",
+        "end": ""
+      },
+      "description": "Show Maester documentation page for a good overview"
+    },
+    {
+      "id": "demo-mflaeinu-guxh",
+      "title": "Configure Maester 🧑‍💻",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/configure-maester.md"
+        }
+      ],
+      "icons": {
+        "start": "device-desktop",
+        "end": ""
+      },
+      "description": "Slides: Configure Maester to scan your tenant daily using GitHub Actions"
+    },
+    {
+      "id": "demo-mflan0bm-45qh",
+      "title": "GitHub Actions 📅",
+      "steps": [
+        {
+          "action": "openWebsite",
+          "url": "https://github.com/svrooij/maester-demo/actions/workflows/maester.yml",
+          "openInVSCode": false
+        },
+        {
+          "action": "waitForInput",
+          "message": "Continue presentation?"
+        },
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "runDemoById",
+          "id": "demo-mflbepez-qt40"
+        }
+      ],
+      "icons": {
+        "start": "bookmark",
+        "end": ""
+      },
+      "description": "GitHub Actions scanning demo tenant daily",
+      "disabled": false
+    },
+    {
+      "id": "demo-mflbepez-qt40",
+      "title": "Static web app ✈️",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/configure-swa.md"
+        }
+      ],
+      "icons": {
+        "start": "device-desktop",
+        "end": ""
+      },
+      "description": "Publish the Maester results to Azure Static Web app (without any secrets)"
+    },
+    {
+      "id": "demo-mfnol0ow-8g95",
+      "title": "Quiz start",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/quiz.md"
+        }
+      ],
+      "icons": {
+        "start": "debug-start",
+        "end": ""
+      },
+      "description": "Intro to the quiz",
+      "disabled": false
+    },
+    {
+      "id": "demo-mfnooheb-xabl",
+      "title": "Question 1",
+      "steps": [
+        {
+          "action": "startEngageTimePoll",
+          "pollId": "jodrkr",
+          "disabled": false
+        },
+        {
+          "action": "close"
+        },
+        {
+          "action": "showEngageTimePoll",
+          "pollId": "jodrkr"
+        },
+        {
+          "action": "waitForInput",
+          "message": "Close poll and continue?",
+          "timeout": 30000
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "jodrkr",
+          "disabled": false
+        }
+      ],
+      "icons": {
+        "start": "question",
+        "end": ""
+      },
+      "description": "Simple question to get started"
+    },
+    {
+      "id": "demo-mfnos434-t868",
+      "title": "Question 2",
+      "steps": [
+        {
+          "action": "startEngageTimePoll",
+          "pollId": "j73xb4",
+          "disabled": false
+        },
+        {
+          "action": "showEngageTimePoll",
+          "pollId": "j73xb4"
+        },
+        {
+          "action": "waitForInput",
+          "message": "Close poll and continue?",
+          "timeout": 30000
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "j73xb4",
+          "disabled": false
+        }
+      ],
+      "icons": {
+        "start": "question",
+        "end": ""
+      },
+      "description": "What is the .... 🌐"
+    },
+    {
+      "id": "demo-mfnot6y3-h7nw",
+      "title": "Question 3",
+      "steps": [
+        {
+          "action": "startEngageTimePoll",
+          "pollId": "jwc8mo",
+          "disabled": false
+        },
+        {
+          "action": "showEngageTimePoll",
+          "pollId": "jwc8mo"
+        },
+        {
+          "action": "waitForInput",
+          "message": "Close poll and continue?",
+          "timeout": 30000
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "jwc8mo",
+          "disabled": false
+        }
+      ],
+      "icons": {
+        "start": "question",
+        "end": ""
+      },
+      "description": "How many ..... 🧑‍💻"
+    },
+    {
+      "id": "demo-mfnpvcsn-uy0p",
+      "title": "Question 4",
+      "steps": [
+        {
+          "action": "startEngageTimePoll",
+          "pollId": "punr5d",
+          "disabled": false
+        },
+        {
+          "action": "showEngageTimePoll",
+          "pollId": "punr5d"
+        },
+        {
+          "action": "waitForInput",
+          "message": "Close poll and continue?",
+          "timeout": 30000
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "punr5d"
+        },
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "runDemoById",
+          "id": "demo-mfl6848k-ah87"
+        }
+      ],
+      "icons": {
+        "start": "question",
+        "end": ""
+      },
+      "description": "How many ..... 🔑"
+    },
+    {
+      "id": "demo-mfl6848k-ah87",
+      "title": "Outro 👏",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/outro.md"
+        }
+      ],
+      "icons": {
+        "start": "device-desktop",
+        "end": ""
+      },
+      "description": "Final thoughts and thank you"
+    },
+    {
+      "title": "🏁 Reset VS Code 🏁",
+      "icons": {
+        "start": "wrench"
+      },
+      "description": "Return the editor theme to its default state to clean up after the demo.",
+      "steps": [
+        {
+          "action": "unsetTheme"
+        },
+        {
+          "action": "setSetting",
+          "setting": {
+            "key": "window.zoomLevel",
+            "value": 1
+          }
+        },
+        {
+          "action": "setSetting",
+          "setting": {
+            "key": "workbench.statusBar.visible",
+            "value": true
+          }
+        },
+        {
+          "action": "setSetting",
+          "setting": {
+            "key": "workbench.activityBar.location",
+            "value": "default"
+          }
+        },
+        {
+          "action": "closeEngageTimeSession",
+          "disabled": true
+        }
+      ]
+    }
+  ],
+  "engageTime": {
+    "sessionId": "mar3aw"
+  }
+}
