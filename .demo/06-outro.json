@@ -1,0 +1,52 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "06 - Outro",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "id": "demo-mguonkt6-3ghp",
+      "title": "Thank you",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/outro.md"
+        }
+      ],
+      "icons": {
+        "start": "device-desktop",
+        "end": ""
+      },
+      "description": "Thank you for attending, the slides are provided after you provide the feedback."
+    },
+    {
+      "id": "demo-mguoq4m4-tes5",
+      "title": "🏁 Reset VSCode 🏁",
+      "steps": [
+        {
+          "action": "restoreSettings"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "rm maester-tests",
+          "terminalId": "cleanup"
+        },
+        {
+          "action": "closeTerminal",
+          "terminalId": "maester"
+        },
+        {
+          "action": "closeTerminal",
+          "terminalId": "cleanup"
+        }
+      ],
+      "icons": {
+        "start": "bell",
+        "end": ""
+      }
+    }
+  ],
+  "engageTime": {
+    "sessionId": "qompb0"
+  }
+}

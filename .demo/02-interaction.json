@@ -1,0 +1,54 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "02 - Interaction",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "id": "demo-mgujudbt-woat",
+      "title": "Show session",
+      "steps": [
+        {
+          "action": "startEngageTimeSession"
+        },
+        {
+          "action": "showEngageTimeSession"
+        }
+      ],
+      "icons": {
+        "start": "play-circle",
+        "end": ""
+      },
+      "description": "Join this interactive session, please scan the qr code or go to the website"
+    },
+    {
+      "id": "demo-mguk0d29-v2ru",
+      "title": "Question",
+      "steps": [
+        {
+          "action": "close"
+        },
+        {
+          "action": "showEngageTimePoll",
+          "pollId": "ux7toy",
+          "startOnOpen": true
+        },
+        {
+          "action": "pause"
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "ux7toy"
+        }
+      ],
+      "description": "Have you ever used Maester",
+      "icons": {
+        "start": "question",
+        "end": ""
+      }
+    }
+  ],
+  "engageTime": {
+    "sessionId": "qompb0"
+  }
+}

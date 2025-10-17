@@ -1,0 +1,145 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "05 - Quiz",
+  "description": "Short quiz with 4 questions",
+  "version": 2,
+  "demos": [
+    {
+      "id": "demo-mgunxs2s-w0rr",
+      "title": "Quiztime",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/quiz.md"
+        }
+      ],
+      "icons": {
+        "start": "checklist",
+        "end": ""
+      },
+      "description": "Quiz intro"
+    },
+    {
+      "id": "demo-mgukdg9p-0i6z",
+      "title": "Show session again",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        },
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "showEngageTimeSession"
+        }
+      ],
+      "icons": {
+        "start": "play-circle",
+        "end": ""
+      },
+      "description": "In case you missed the QR the first time"
+    },
+    {
+      "id": "demo-mgukhd6n-a4u8",
+      "title": "Question 1",
+      "steps": [
+        {
+          "action": "showEngageTimePoll",
+          "pollId": "yogstc",
+          "startOnOpen": true
+        },
+        {
+          "action": "pause",
+          "disabled": true
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "yogstc",
+          "disabled": true
+        }
+      ],
+      "description": "Will you be using Maester in the future?",
+      "icons": {
+        "start": "question",
+        "end": "question"
+      }
+    },
+    {
+      "id": "demo-mguklda2-6aa3",
+      "title": "Question 2",
+      "steps": [
+        {
+          "action": "showEngageTimePoll",
+          "startOnOpen": true,
+          "pollId": "7alxfr"
+        },
+        {
+          "action": "pause"
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "7alxfr"
+        }
+      ],
+      "description": "🌐 ",
+      "icons": {
+        "start": "question",
+        "end": "question"
+      }
+    },
+    {
+      "id": "demo-mgukqpa8-2hs2",
+      "title": "Question 3",
+      "steps": [
+        {
+          "action": "showEngageTimePoll",
+          "startOnOpen": true,
+          "pollId": "esmdhe"
+        },
+        {
+          "action": "pause"
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "esmdhe"
+        }
+      ],
+      "icons": {
+        "start": "question",
+        "end": "question"
+      },
+      "description": "🔐"
+    },
+    {
+      "id": "demo-mguljw4n-nik0",
+      "title": "Question 4",
+      "steps": [
+        {
+          "action": "showEngageTimePoll",
+          "startOnOpen": true,
+          "pollId": "4795vh"
+        },
+        {
+          "action": "pause"
+        },
+        {
+          "action": "closeEngageTimePoll",
+          "pollId": "4795vh"
+        }
+      ],
+      "icons": {
+        "start": "question",
+        "end": "question"
+      },
+      "description": "🧑‍💻"
+    }
+  ],
+  "engageTime": {
+    "sessionId": "qompb0"
+  }
+}

@@ -29,6 +29,10 @@ This repository is configured to run in GitHub Codespaces, so you can also open 
 
 ## 🧑‍🏫 Talks
 
+### 📅 2025-10-18 Collab days Belgium
+
+I gave this demo at [Collab days Belgium](https://www.collabdays.org/2025-belgium/) in Edegem, Belgium. [event link](https://engagetime.live/conference/collabdays-belgium-2025)
+
 ### 📅 2025-09-23 Diwug 
 
 I gave this demo at a [Diwug](https://diwug.nl) meetup in Utrecht, The Netherlands. [event link](https://www.meetup.com/nl-NL/dutch-information-workers-user-group-diwug/events/310762820/)

@@ -1,11 +1,15 @@
 ---
 layout: intro
-theme: quantum
 ---
 
 # Become a Maester in Microsoft 365 security
 
 &mdash; by Stephan van Rooij
+
+---
+layout: image
+image: .demo/assets/sponsors.png
+---
 
 ---
 layout: image-right
@@ -29,7 +33,7 @@ title: Interaction required
 
 ## Scan to join the session
 
-![Join QR](.demo/slides/session-qr.png)
+![Join QR](.demo/slides/session-qompb0-qr.png)
 
 ::right::
 
@@ -39,7 +43,8 @@ Scan the QR code to participate in the session.
 
 - Live polls
 - Ask questions
-- Quiz (with prizes!)
+- Quiz
+- Give feedback
 
 ---
 layout: image-right
@@ -51,7 +56,8 @@ title: What will we do? 📅
 # Agenda
 
 1. What is Maester?
-1. Schedule Maester
-1. (maybe) Publish Maester to Static Web Apps
-1. Quiz
-1. Q&A
+2. Run Maester locally
+3. Run Maester in GitHub Actions
+4. Host Maester results
+5. Quiz
+6. Q&A

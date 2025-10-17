@@ -1,0 +1,62 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "04 - Automatic Scanning",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "id": "demo-mgunjtg5-r4x4",
+      "title": "Configure GitHub Actions",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/configure-maester.md"
+        }
+      ],
+      "icons": {
+        "start": "device-desktop",
+        "end": ""
+      },
+      "description": "Setup GitHub Actions to scan your tenant daily or on any schedule you want"
+    },
+    {
+      "id": "demo-mgunrlou-5i5e",
+      "title": "GitHub Actions result",
+      "steps": [
+        {
+          "action": "openWebsite",
+          "url": "https://github.com/svrooij/maester-svrooij-dot-io/actions",
+          "openInVSCode": false
+        }
+      ],
+      "icons": {
+        "start": "github",
+        "end": ""
+      },
+      "description": "Showing Maester results in GitHub Actions (needs login so not in VSCode)"
+    },
+    {
+      "id": "demo-mgunuwc3-tc69",
+      "title": "Publish results to SWA",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/configure-swa.md"
+        }
+      ],
+      "description": "Publish the results to Azure Static Web Apps and protect with built-in entra authentication on invite.",
+      "icons": {
+        "start": "azure",
+        "end": ""
+      }
+    }
+  ]
+}

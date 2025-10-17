@@ -1,6 +1,5 @@
 ---
 layout: image-right
-theme: quantum
 image: .demo/slides/swa-contributor.png
 ---
 

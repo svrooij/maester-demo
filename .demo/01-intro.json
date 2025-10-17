@@ -1,0 +1,49 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "01 - Intro",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "id": "demo-mgujjimp-p67t",
+      "title": "Configure VSCode",
+      "steps": [
+        {
+          "action": "backupSettings"
+        },
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        }
+      ],
+      "icons": {
+        "start": "checklist",
+        "end": "check-all"
+      }
+    },
+    {
+      "id": "demo-mgujrila-xrft",
+      "title": "Introduction",
+      "steps": [
+        {
+          "action": "snippet",
+          "contentPath": ".demo/.snippets/focus-on-content.json"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/intro.md"
+        }
+      ],
+      "icons": {
+        "start": "device-desktop",
+        "end": ""
+      }
+    }
+  ],
+  "engageTime": {
+    "sessionId": "qompb0"
+  }
+}
