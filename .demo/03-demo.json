@@ -1,0 +1,225 @@
+{
+  "$schema": "https://demotime.show/demo-time.schema.json",
+  "title": "03 - Demo",
+  "description": "",
+  "version": 2,
+  "demos": [
+    {
+      "id": "demo-mgulmxbo-hesu",
+      "title": "Maester results",
+      "steps": [
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/browser-demo.md"
+        },
+        {
+          "action": "openWebsite",
+          "url": "https://maester-results.svrooij.io/",
+          "openInVSCode": false
+        }
+      ],
+      "icons": {
+        "start": "globe",
+        "end": ""
+      },
+      "description": "Azure SWA with (protected) results of Maester"
+    },
+    {
+      "id": "demo-mgulpi34-mjk6",
+      "title": "Documentation",
+      "steps": [
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "openWebsite",
+          "url": "https://maester.dev"
+        }
+      ],
+      "icons": {
+        "start": "book",
+        "end": ""
+      },
+      "description": "Maester documentation website"
+    },
+    {
+      "id": "demo-mgum09s0-htb6",
+      "title": "Permissions",
+      "steps": [
+        {
+          "action": "openWebsite",
+          "url": "https://maester.dev/docs/monitoring/github#grant-permissions-to-microsoft-graph"
+        }
+      ],
+      "icons": {
+        "start": "key",
+        "end": ""
+      },
+      "description": "Maester needs a lot of permissions, all documented."
+    },
+    {
+      "id": "demo-mgumbl20-ya83",
+      "title": "Install Graph module",
+      "steps": [
+        {
+          "action": "closeTerminal",
+          "terminalId": "maester"
+        },
+        {
+          "action": "openTerminal",
+          "terminalId": "maester"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "Install-Module Microsoft.Graph.Authentication",
+          "terminalId": "maester",
+          "autoExecute": true,
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 60
+        },
+        {
+          "action": "pause"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "clear",
+          "terminalId": "maester",
+          "autoExecute": true,
+          "insertTypingMode": "instant"
+        }
+      ],
+      "description": "Install-Module Microsoft.Graph.Authentication",
+      "icons": {
+        "start": "terminal-powershell",
+        "end": "alert"
+      }
+    },
+    {
+      "id": "demo-mgum3w7m-oirv",
+      "title": "Install Maester",
+      "steps": [
+        {
+          "action": "openWebsite",
+          "url": "https://maester.dev/docs/installation"
+        },
+        {
+          "action": "openTerminal",
+          "terminalId": "maester"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "Install-Module Maester",
+          "terminalId": "maester",
+          "autoExecute": true,
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 60
+        },
+        {
+          "action": "pause"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "Import-module Maester",
+          "terminalId": "maester",
+          "autoExecute": true,
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 60
+        }
+      ],
+      "description": "Install-Module Maester and Import-module Maester",
+      "icons": {
+        "start": "terminal-powershell",
+        "end": "alert"
+      }
+    },
+    {
+      "id": "demo-mgumpa0o-4wfx",
+      "title": "Install tests",
+      "steps": [
+        {
+          "action": "openTerminal",
+          "terminalId": "maester"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "mkdir maester-tests",
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 50,
+          "terminalId": "maester"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "cd maester-tests",
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 50,
+          "terminalId": "maester"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "Install-MaesterTests",
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 50,
+          "terminalId": "maester",
+          "autoExecute": true
+        }
+      ],
+      "description": "Maester has a lot of pre-configured tests, you can install them by running Install-MaesterTests",
+      "icons": {
+        "start": "terminal-powershell",
+        "end": ""
+      }
+    },
+    {
+      "id": "demo-mguma7p1-nvts",
+      "title": "Connect Maester",
+      "steps": [
+        {
+          "action": "openTerminal",
+          "terminalId": "maester"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "command": "Connect-Maester -Service Graph",
+          "terminalId": "maester",
+          "autoExecute": true,
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 60
+        }
+      ],
+      "description": "Connect-Maester -Service Graph\nSee: https://maester.dev/docs/connect-maester/",
+      "icons": {
+        "start": "terminal-powershell",
+        "end": "alert"
+      }
+    },
+    {
+      "id": "demo-mgune9u4-6erd",
+      "title": "Invoke Maester",
+      "steps": [
+        {
+          "action": "openTerminal",
+          "terminalId": "maester"
+        },
+        {
+          "action": "executeTerminalCommand",
+          "terminalId": "maester",
+          "autoExecute": true,
+          "insertTypingMode": "character-by-character",
+          "insertTypingSpeed": 60,
+          "command": "Invoke-Maester"
+        }
+      ],
+      "description": "Invoke-Maester in the directory with your tests.\nSee: https://maester.dev/docs/installation\n\nThis takes long, maybe leave it running in the background",
+      "icons": {
+        "start": "terminal-powershell",
+        "end": "alert"
+      }
+    }
+  ],
+  "engageTime": {
+    "sessionId": "qompb0"
+  }
+}

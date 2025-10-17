@@ -15,7 +15,7 @@ Package and deploy any app from Winget to Intune.
 
 # Graph X Ray
 
-Portal clickops to script in seconds.
+Portal click-ops to script in seconds.
 
 [graphxray.merill.net](https://graphxray.merill.net)
 
@@ -31,6 +31,11 @@ transition: slideUp
 Feel free to ask your questions.
 
 ---
+layout: image
+image: .demo/assets/sponsors.png
+---
+
+---
 layout: section
 transition: slideUp
 ---
@@ -43,6 +48,10 @@ Any questions or feedback? Feel free to reach out!
 
 🔥: [maester.dev](https://maester.dev)
 
-🧑‍💻: [github/svrooij/maester-demo](https://github.com/svrooij/maester-demo)
+Rate the session to get access to the slides and demo code.
 
-Presented with [DemoTime](https://demotime.show) 🎥
+---
+theme: default
+layout: image
+image: .demo/assets/rate.png
+---

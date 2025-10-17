@@ -30,7 +30,7 @@ jobs:
         include_public_tests: true # Optional: Set to false if you are keeping to a certain version of tests or have your own tests
         include_private_tests: false # no other tests yet
         include_exchange: false    # Optional: Set to true if you want to include Exchange tests
-        include_teams: false # bla
+        include_teams: false     # Optional: Set to true if you want to include Teams tests
         #include_tags: Maester,Security,Entra
         step_summary: true         # Optional: Set to false if you don't want a summary added to your GitHub Action run
         artifact_upload: true      # Optional: Set to false if you don't want summaries uploaded to GitHub Artifacts
