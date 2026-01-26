@@ -4,26 +4,26 @@ layout: intro
 
 # Become a Maester in Microsoft 365 security
 
-&mdash; by Stephan van Rooij
+&mdash; Stephan and Fabian
 
 ---
 layout: image
-image: .demo/assets/sponsors.png
+image: .demo/assets/ctt_sponsors.png
 ---
 
 ---
-layout: image-right
-image: .demo/slides/stephan.jpg
+layout: image
+image: .demo/assets/ctt_stephan_and_fabian.png
 transition: slideUp
-title: Stephan van Rooij
+title: Stephan and Fabian
 ---
 
-# Stephan van Rooij
+<!-- # Stephan van Rooij
 
 - Microsoft MVP Graph & Security
 - Software developer 🧑‍💻
 - Speaker 🎤
-- Open Source contributor 🌍
+- Open Source contributor 🌍 -->
 
 ---
 layout: two-columns
@@ -33,7 +33,7 @@ title: Interaction required
 
 ## Scan to join the session
 
-![Join QR](.demo/slides/session-qompb0-qr.png)
+![Join QR](.demo/assets/ctt-session.png)
 
 ::right::
 
@@ -44,7 +44,7 @@ Scan the QR code to participate in the session.
 - Live polls
 - Ask questions
 - Quiz
-- Give feedback
+- Live reactions
 
 ---
 layout: image-right

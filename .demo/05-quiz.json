@@ -50,17 +50,17 @@
       "steps": [
         {
           "action": "showEngageTimePoll",
-          "pollId": "yogstc",
-          "startOnOpen": true
+          "startOnOpen": true,
+          "pollId": "mch43t"
         },
         {
           "action": "pause",
-          "disabled": true
+          "disabled": false
         },
         {
           "action": "closeEngageTimePoll",
-          "pollId": "yogstc",
-          "disabled": true
+          "disabled": false,
+          "pollId": "mch43t"
         }
       ],
       "description": "Will you be using Maester in the future?",
@@ -76,14 +76,14 @@
         {
           "action": "showEngageTimePoll",
           "startOnOpen": true,
-          "pollId": "7alxfr"
+          "pollId": "oiz2va"
         },
         {
           "action": "pause"
         },
         {
           "action": "closeEngageTimePoll",
-          "pollId": "7alxfr"
+          "pollId": "oiz2va"
         }
       ],
       "description": "🌐 ",
@@ -99,14 +99,14 @@
         {
           "action": "showEngageTimePoll",
           "startOnOpen": true,
-          "pollId": "esmdhe"
+          "pollId": "9zsey3"
         },
         {
           "action": "pause"
         },
         {
           "action": "closeEngageTimePoll",
-          "pollId": "esmdhe"
+          "pollId": "9zsey3"
         }
       ],
       "icons": {
@@ -122,14 +122,14 @@
         {
           "action": "showEngageTimePoll",
           "startOnOpen": true,
-          "pollId": "4795vh"
+          "pollId": "0uxy7x"
         },
         {
           "action": "pause"
         },
         {
           "action": "closeEngageTimePoll",
-          "pollId": "4795vh"
+          "pollId": "0uxy7x"
         }
       ],
       "icons": {
@@ -140,6 +140,6 @@
     }
   ],
   "engageTime": {
-    "sessionId": "qompb0"
+    "sessionId": "6nsb7u"
   }
 }

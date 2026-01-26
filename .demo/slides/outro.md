@@ -1,6 +1,5 @@
 ---
 layout: two-columns
-theme: quantum
 ---
 
 # WinTuner
@@ -32,11 +31,12 @@ Feel free to ask your questions.
 
 ---
 layout: image
-image: .demo/assets/sponsors.png
+image: .demo/assets/ctt_sponsors.png
+transition: slideUp
 ---
 
 ---
-layout: section
+layout: two-columns
 transition: slideUp
 ---
 
@@ -44,14 +44,12 @@ transition: slideUp
 
 Any questions or feedback? Feel free to reach out!
 
-📖: [svrooij.io](https://svrooij.io)
+📖: [svrooij.io](https://svrooij.io) - [cloudbrothers.info](https://cloudbrothers.info)
 
 🔥: [maester.dev](https://maester.dev)
 
-Rate the session to get access to the slides and demo code.
+Please provide your feedback!
 
----
-theme: default
-layout: image
-image: .demo/assets/rate.png
----
+::right::
+
+![Feedback QR](.demo/assets/ctt_feedback_qr.png)

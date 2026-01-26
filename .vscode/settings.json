@@ -1,5 +1,5 @@
 {
-  "workbench.statusBar.visible": true,
   "window.zoomLevel": 1,
-  "workbench.activityBar.location": "default"
+  "workbench.activityBar.location": "default",
+  "demoTime.customTheme": ".demo/slides/themes/ctt.css"
 }
