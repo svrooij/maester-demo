@@ -1,5 +1,7 @@
 {
   "window.zoomLevel": 1,
   "workbench.activityBar.location": "default",
-  "demoTime.customTheme": ".demo\\slides\\themes\\ctt.css"
+  "demoTime.customTheme": ".demo\\slides\\themes\\ctt.css",
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.statusBar.visible": true
 }
