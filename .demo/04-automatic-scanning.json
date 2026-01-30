@@ -57,6 +57,29 @@
         "start": "azure",
         "end": ""
       }
+    },
+    {
+      "id": "demo-mgulmxbo-hcc",
+      "title": "Maester results",
+      "steps": [
+        {
+          "action": "closeAll"
+        },
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/browser-demo.md"
+        },
+        {
+          "action": "openWebsite",
+          "url": "https://maester-results.svrooij.io/",
+          "openInVSCode": false
+        }
+      ],
+      "icons": {
+        "start": "globe",
+        "end": ""
+      },
+      "description": "Azure SWA with (protected) results of Maester"
     }
   ]
 }

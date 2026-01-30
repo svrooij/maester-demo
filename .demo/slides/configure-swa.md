@@ -52,12 +52,12 @@ layout: two-columns
 transition: slideUp
 ---
 
-# Publish results to Static Web Apps
+# Publish results to SWA
 
 1. Create Static Web App
 1. Grant service principal `contributor` role to the SWA
 1. Add `SWA_NAME` secret to your Github Actions secrets
-1. Add `config/staticwebapp.config.json` file to your repo
+1. Add `config/staticwebapp.config.json` file
 1. Modify workflow to publish to SWA
 
 ::right::
@@ -84,11 +84,11 @@ layout: two-columns
 transition: slideUp
 ---
 
-# Publish results to Static Web Apps
+# Publish results to SWA
 
 1. Create Static Web App
 1. Grant service principal `contributor` role to the SWA
-1. Add `SWA_NAME` secret to your Github Actions secrets
+1. Add `SWA_NAME` secret
 1. Add `config/staticwebapp.config.json` file to your repo
 1. Modify workflow to publish to SWA
 

@@ -11,7 +11,7 @@
   --demotime-heading-background: transparent;
   --demotime-heading-font-family: 'Roboto', sans-serif;
 
-  --demotime-font-size: var(--vscode-editor-font-size, 1.1em);
+  --demotime-font-size: 1.7em;
 
   --demotime-link-color: var(--vscode-textLink-foreground);
   --demotime-link-active-color: var(--vscode-textLink-activeForeground);
@@ -63,7 +63,7 @@
   background-position-y: bottom;
 
   color: var(--demotime-color);
-  font-size: var(--demotime-font-size);
+  font-size: 1.8em;
   font-family: var(--demotime-font-family);
 
   .slide__content__inner {
@@ -133,6 +133,7 @@
 
     li {
       @apply mb-2;
+      font-size: var(--demotime-font-size);
     }
 
     ul,

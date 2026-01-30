@@ -135,8 +135,9 @@ transition: slideUp
 1. Copy content from [maester.dev](https://maester.dev/docs/monitoring/github)
    Monitoring -> GitHub
 1. Add Actions-secrets to your repo
-   - `AZURE_CLIENT_ID` = Application (client) ID
-   - `AZURE_TENANT_ID` = Directory (tenant) ID
+
+`AZURE_CLIENT_ID` = Application (client) ID
+`AZURE_TENANT_ID` = Directory (tenant) ID
 
 ---
 layout: section

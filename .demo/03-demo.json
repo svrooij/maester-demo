@@ -28,6 +28,21 @@
       "description": "Azure SWA with (protected) results of Maester"
     },
     {
+      "id": "scene-ml0kqi9v-r3v5",
+      "title": "Stats",
+      "steps": [
+        {
+          "action": "openSlide",
+          "path": ".demo/slides/stats.md"
+        }
+      ],
+      "description": "Stats about Maester",
+      "icons": {
+        "start": "smiley",
+        "end": ""
+      }
+    },
+    {
       "id": "demo-mgulpi34-mjk6",
       "title": "Documentation",
       "steps": [
