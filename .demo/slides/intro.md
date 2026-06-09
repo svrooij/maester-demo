@@ -15,16 +15,10 @@ title: Stephan van Rooij
 
 # Stephan van Rooij
 
-- Professional burglar
+- Professional burglar 🦹
 - Microsoft MVP Graph & Security
 - Software developer 🧑‍💻
 - Speaker 🎤
-
----
-layout: two-columns
-transition: slideUp
-title: Interaction required
----
 
 ---
 layout: image-right
@@ -39,5 +33,19 @@ title: What will we do? 📅
 2. Run Maester locally
 3. Run Maester in GitHub Actions
 4. Host Maester results
-5. Quiz
 6. Q&A
+
+---
+layout: image-right
+image: .demo/slides/maester_logo.svg
+transition: slideUp
+title: What is Maester
+---
+
+# What is Maester
+
+- Open-source security test framework
+- 100+ contributors (Merill F., Fabian B., Thomas N. and Sam E.)
+- PowerShell / Pester
+- 400+ built-in tests
+- Beautiful report

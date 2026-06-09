@@ -36,7 +36,8 @@
         },
         {
           "action": "openWebsite",
-          "url": "https://maester.dev"
+          "url": "https://maester.dev",
+          "openInVSCode": false
         }
       ],
       "icons": {

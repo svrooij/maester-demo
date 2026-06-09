@@ -19,6 +19,7 @@ This repository is configured to run in GitHub Codespaces, so you can also open 
 - [Maester website](https://maester.dev) 📕
 - [Static web app config](./config//staticwebapp.config.json) 🔑
 - [Workflow with SWA deploy](./.github/workflows/maester.yml) ⚙️
+- [Maester lab at Experts Live](https://github.com/IdentityMan/MasterclassELNL26/tree/main/labs/lab-5-maester)
 
 ### Other links
 
@@ -26,6 +27,7 @@ This repository is configured to run in GitHub Codespaces, so you can also open 
 - [WinTuner](https://wintuner.app) 📦
 - [Graph X Ray](https://graphxray.merill.net) ⚡
 - [DemoTime](https://demotime.show) 🖥️ & [Engage Time](https://engagetime.live/) 🤳
+- [GoFundMe Naar de haaien voor de voedselbank](https://www.gofundme.com/f/naar-de-haaien-voor-de-voedselbank)
 
 ## 🧑‍🏫 Talks
 

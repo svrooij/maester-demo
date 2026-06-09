@@ -1,5 +1,6 @@
 ---
 layout: two-columns
+transition: slideUp
 theme: quantum
 ---
 
@@ -22,17 +23,28 @@ Portal click-ops to script in seconds.
 ![Graph X Ray logo](https://graphxray.merill.net/logo.svg)
 
 ---
-layout: section
+layout: image-right
+image: .demo/slides/stephan.jpg
 transition: slideUp
+title: Stephan van Rooij
+theme: quantum
 ---
 
-# Questions?
+# Stephan van Rooij
 
-Feel free to ask your questions.
+- Professional burglar 🦹
+- Microsoft MVP Graph & Security
+- Software developer 🧑‍💻
+- Speaker 🎤
 
 ---
-layout: image
-image: .demo/assets/sponsors.png
+layout: video
+video: .demo/assets/voedselbank.mp4
+controls: false
+autoplay: true
+loop: false
+transition: slideUp
+title: Stephan van Rooij
 ---
 
 ---
@@ -48,10 +60,7 @@ Any questions or feedback? Feel free to reach out!
 
 🔥: [maester.dev](https://maester.dev)
 
-Rate the session to get access to the slides and demo code.
+💎: [gofund.me/0791aa93c](https://www.gofundme.com/f/naar-de-haaien-voor-de-voedselbank)
 
----
-theme: default
-layout: image
-image: .demo/assets/rate.png
----
+🧪: [https://shorturl.at/r9tGN](https://github.com/IdentityMan/MasterclassELNL26/tree/main/labs/lab-5-maester)
+
