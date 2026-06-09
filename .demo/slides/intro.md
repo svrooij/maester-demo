@@ -7,11 +7,6 @@ layout: intro
 &mdash; by Stephan van Rooij
 
 ---
-layout: image
-image: .demo/assets/sponsors.png
----
-
----
 layout: image-right
 image: .demo/slides/stephan.jpg
 transition: slideUp
@@ -20,31 +15,16 @@ title: Stephan van Rooij
 
 # Stephan van Rooij
 
+- Professional burglar
 - Microsoft MVP Graph & Security
 - Software developer 🧑‍💻
 - Speaker 🎤
-- Open Source contributor 🌍
 
 ---
 layout: two-columns
 transition: slideUp
 title: Interaction required
 ---
-
-## Scan to join the session
-
-![Join QR](.demo/slides/session-qompb0-qr.png)
-
-::right::
-
-# Interactive session
-
-Scan the QR code to participate in the session.
-
-- Live polls
-- Ask questions
-- Quiz
-- Give feedback
 
 ---
 layout: image-right
